@@ -9,7 +9,7 @@ public class ContohTipeData21 {
         long saldo = 150000000;
         int angkaDesimal = 0x10;
 
-        System.out.println("Golongan darah\t: " + (byte)golonganDarah);
+        System.out.println("Golongan darah\t: " + golonganDarah);
         System.out.println("Jumlah Penduduk\t: " + jumlahPenduduk);
         System.out.println("Suhu\t\t: " + suhu);
         System.out.println("Berat\t\t: " + (float)berat);
