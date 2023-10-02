@@ -12,7 +12,7 @@ public class Segitiga21 {
         System.out.print("Masukkan tinggi: ");
         tinggi = sc.nextInt();
 
-        luas = alas * tinggi / 2;
+        luas = alas * tinggi * 0.5;
         System.out.println("Luas segitiga: " + luas);
 
     }
