@@ -8,14 +8,7 @@ public class PemilihanBilangan21 {
         System.out.print("Masukkan sebuah angka: ");
         int angka = sc.nextInt();
 
-        if (angka % 2 == 0)
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan genap");
-        }
-        else
-        {
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
-        }
-
+        System.out.println("Angka " + angka + " termasuk bilangan " + (angka % 2 == 0 ? "genap" : "ganjil"));
+        
     } 
 }
