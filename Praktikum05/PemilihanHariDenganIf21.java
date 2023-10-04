@@ -24,10 +24,10 @@ public class PemilihanHariDenganIf21 {
                 dayType = "weekend";
                 break;
             default:
-                dayType = "invalid Number";
-                System.out.println(angka + " is an " + dayType);        
+                System.out.println(angka + " is an invalid number");return;        
         }
         System.out.println(angka + " is a " + dayType);
 
     }
+    
 }
