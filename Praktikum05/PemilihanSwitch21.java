@@ -29,7 +29,7 @@ public class PemilihanSwitch21 {
                 hasil = angka1 / angka2;
                 break; 
             default:
-                System.out.println("perator yang dipilih tidak sesuai"); return;
+                System.out.println("operator yang dipilih tidak sesuai"); return;
         }
         System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
 
