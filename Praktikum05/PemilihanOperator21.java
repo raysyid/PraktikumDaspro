@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PemilihanSwitch21 {
+public class PemilihanOperator21 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,21 +15,16 @@ public class PemilihanSwitch21 {
         System.out.print("Masukkan operator (+ - * /): ");
         operator = sc.next().charAt(0);
 
-        switch (operator) {
-            case '+':
-                hasil = angka1 + angka2;
-                break;
-            case '-':
-                hasil = angka1 - angka2;
-                break;
-            case '*':
-                hasil = angka1 * angka2;
-                break;
-            case '/':
-                hasil = angka1 / angka2;
-                break; 
-            default:
-                System.out.println("perator yang dipilih tidak sesuai"); return;
+        if (operator == '+') {
+            hasil = angka1 + angka2;
+        } else if (operator == '-') {
+            hasil = angka1 - angka2;
+        } else if (operator == '*') {
+            hasil = angka1 * angka2;
+        } else if (operator == '/') {
+            hasil = angka1 / angka2;
+        } else {
+            System.out.println("Operator yang dipilih tidak sesuai");return;
         }
         System.out.println(angka1 + " " + operator + " " + angka2 + " = " + hasil);
 
