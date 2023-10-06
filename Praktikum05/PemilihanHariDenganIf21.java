@@ -11,23 +11,16 @@ public class PemilihanHariDenganIf21 {
         System.out.print("Input day number: ");
         angka = sc.nextInt();
 
-        switch (angka) {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                dayType = "weekday";
-                break;
-            case 6:
-            case 7:
-                dayType = "weekend";
-                break;
-            default:
-                System.out.println(angka + " is an invalid number");return;        
+        if (angka >=1 && angka <=5 ) {
+            dayType = "weekday";
+        } 
+        else if (angka >= 6 && angka <= 7) {
+            dayType = "weekend";
+        } 
+        else {
+            System.out.println(angka + " is an invalid number"); return;        
         }
         System.out.println(angka + " is a " + dayType);
 
     }
-    
 }
