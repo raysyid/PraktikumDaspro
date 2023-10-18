@@ -34,6 +34,7 @@ public class WhileGaji21 {
             }
             totalGajiLembur += gajiLembur;
         }
+        sc.close();
         System.out.println("Total gaji lembur: " + totalGajiLembur);
     } 
 }
