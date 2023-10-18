@@ -6,6 +6,7 @@ public class ForKelipatan21 {
         Scanner sc = new Scanner(System.in);
 
         int total = 0, counter = 0, bilangan;
+        double rata;
 
         System.out.print("Masukkan bilangan 1-9: ");
         bilangan = sc.nextInt();
@@ -18,5 +19,10 @@ public class ForKelipatan21 {
         }
         System.out.printf("Pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total);
         sc.close();
+        System.out.println(" ");
+        rata =(double) total / counter;
+        System.out.println("Rata-rata: " + rata);
     }
+
+
 }
