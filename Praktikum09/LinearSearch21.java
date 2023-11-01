@@ -26,7 +26,6 @@ public class LinearSearch21 {
             if (arrayint[i] == key) {
                 hasil = i;
                 System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);
-                break;
             }
         }
 
