@@ -21,13 +21,14 @@ public class BioskopWithScanner {
                 while (true) {
                     System.out.print("Masukkan nama: ");
                     nama = sc.next();
+
                     System.out.print("Masukkan baris: ");
                     baris = sc.nextInt();
                     System.out.print("Masukkan kolom: ");
                     kolom = sc.nextInt();
                     sc.nextLine();
 
-                    if (penonton[baris-1][kolom-1] != null) {
+                    while (penonton[baris-1][kolom-1] != null) {
                         System.out.println("Maaf, kursi sudah terisi oleh " + penonton[baris-1][kolom-1] + ".");
                         System.out.print("Masukkan baris: ");
                         baris = sc.nextInt();
