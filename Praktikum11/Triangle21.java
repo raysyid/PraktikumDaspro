@@ -1,18 +1,23 @@
 import java.util.Scanner;
 
-public class Square21 {
+public class Triangle21 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Masukkan jumlah *: ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
+        int i = 0;
+
+        while (i < n) {
+            int j = 0;
+
+            while (j <= i) {
                 System.out.print("*");
+                j++;
             }
-            // System.out.println();
+            System.out.println();
+            i++;
         }
     }
 }
