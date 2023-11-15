@@ -25,5 +25,4 @@ public class NestedLoop21 {
             System.out.println();
         }
     }
-    
 }
